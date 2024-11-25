@@ -1,0 +1,52 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "authenticationType": "jwt",
+    "baseName": "testSample",
+    "buildTool": "maven",
+    "cacheProvider": "no",
+    "clientFramework": "angular",
+    "clientTestFrameworks": ["cypress"],
+    "clientTheme": "flatly",
+    "clientThemeVariant": "dark",
+    "creationTimestamp": 1732549548910,
+    "cypressAudit": false,
+    "cypressCoverage": true,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "devServerPort": 4200,
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": true,
+    "enableTranslation": true,
+    "entities": [],
+    "feignClient": null,
+    "jhipsterVersion": "8.5.0",
+    "jwtSecretKey": "ZmM1NmE5MTkyMzk0NTJhMzcyMDQ2NTM5NmUxMmExODM4YzE1NGIyNGU5YzgyYjA5YjUxMTRkMTAxZTQyY2YxY2Y4OGY1ZDZkYTJkN2EwNTNiMTIyYjY4N2JjYjBmYTdmOTJhYTdlYThmMmFjZmJjMGQ4NzJjOGE1MTdmODg0ZDI=",
+    "languages": ["en", "hi"],
+    "messageBroker": false,
+    "microfrontend": true,
+    "microfrontends": [
+      {
+        "baseName": "dashboard"
+      },
+      {
+        "baseName": "profile"
+      },
+      {
+        "baseName": "appcase"
+      }
+    ],
+    "nativeLanguage": "en",
+    "packageName": "com.mycompany.myapp",
+    "prodDatabaseType": "postgresql",
+    "reactive": true,
+    "searchEngine": false,
+    "serverPort": 8080,
+    "serverSideOptions": ["enableSwaggerCodegen:true"],
+    "serviceDiscoveryType": "eureka",
+    "syncUserWithIdp": null,
+    "testFrameworks": ["gatling", "cucumber", "cypress"],
+    "websocket": false,
+    "withAdminUi": true
+  }
+}
